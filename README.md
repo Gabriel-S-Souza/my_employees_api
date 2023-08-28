@@ -1,6 +1,6 @@
 # my_employees_api
 
-This is a simple Python and FastAPI backend project that uses PostgreSQL to store employee data. It provides two endpoints:
+This is a simple Python and FastAPI study project that uses PostgreSQL to store employee data. It provides two endpoints:
 
 
 ```sh
@@ -16,6 +16,7 @@ response:
 	"pic": [1, 2, 3, 4, 5], # base64
 	"created_at": "2023-08-27T21:48:45.394094"
 }
+
 ```
 
 
