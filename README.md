@@ -21,12 +21,15 @@ body:
 }
 ```
 
-To install the project, you will need to install the following dependencies:
-
+## how to run
+To install the project, you will need to install the dependencies with:
+```sh
 pip install -r requirements.txt
-Then, you can run the project with the following command:
+```
 
+Then, you can run the project with the following command:
+```sh
 uvicorn main:app --reload
-This will start the FastAPI server on port 8000.
+```
 
 contact: gabriel.appdeveloper@gmail.com
