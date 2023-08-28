@@ -31,10 +31,10 @@ async def get_hello():
 async def read_employees_table():
     try:
         query = employees_table.select()
-        employeesDb = await database.fetch_all(query)
-        employeesSerialized = []
-        for employee in employeesDb:
-            employeesSerialized.append({
+        employees_db = await database.fetch_all(query)
+        employees_serialized = []
+        for employee in employees_db:
+            employees_serialized.append({
                 "id": employee.id,
                 "name": employee.name,
                 "personal_id": employee.personal_id,
@@ -42,7 +42,7 @@ async def read_employees_table():
                 "pic": employee.pic,
                 "created_at": employee.created_at.isoformat()
             })
-        return employeesSerialized
+        return employees_serialized
         
     except Exception as e:
         print(e)
