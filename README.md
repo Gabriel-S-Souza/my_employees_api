@@ -18,7 +18,7 @@ response:
 }
 
 ```
-
+<br>
 
 ```sh
 POST /employees - Creates a new employee
