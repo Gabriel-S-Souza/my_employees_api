@@ -11,7 +11,7 @@ response:
 [
 	{
 		"id": 6,
-		"name": "Jonh Dow",
+		"name": "Jonh Doe",
 		"personal_id": 123,
 		"biometric": [1.0, 2.0, 3.0, 4.0, 5.0],
 		"pic": [1, 2, 3, 4, 5], # base64
@@ -30,7 +30,7 @@ POST /employees - Creates a new employee
 body:
 ```sh
 {
-	"name": "Jonh Dow",
+	"name": "Jonh Doe",
 	"personal_id": 123,
 	"biometric": [1.0, 2.0, 3.0, 4.0, 5.0],
 	"pic": [1, 2, 3, 4, 5] # base64
